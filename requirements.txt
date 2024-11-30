@@ -1,0 +1,21 @@
+transformers                  # Transformers library for pre-trained models (e.g., BERT, GPT)
+transformers[sentencepiece]   # Adds SentencePiece tokenizer support to Transformers
+datasets                      # Hugging Face library for dataset loading and processing
+sacrebleu                     # BLEU score calculation for machine translation evaluation
+rouge_score                   # ROUGE metric for text summarization evaluation
+py7zr                         # For handling 7z compressed archive files
+pandas                        # Data manipulation and analysis library
+nltk                          # NLP toolkit for tokenization, stemming, and more
+tqdm                          # Progress bar library for loops and processing
+PyYAML                        # YAML parsing and emitting library
+matplotlib                    # Library for plotting and data visualization
+torch                         # PyTorch, a machine learning framework
+notebook                      # Jupyter Notebook environment
+boto3                         # AWS SDK for Python (e.g., interacting with S3)
+mypy-boto3-s3                 # Type hints for boto3's S3 service
+python-box==6.0.2             # Makes dictionaries accessible with dot notation
+ensure==1.0.2                 # Lightweight validation library
+fastapi==0.78.0               # Framework for building APIs in Python
+uvicorn==0.18.3               # ASGI server for running FastAPI apps
+Jinja2==3.1.2                 # Template engine for HTML and text generation
+-e .                          # Editable installation of the local package (development mode)
